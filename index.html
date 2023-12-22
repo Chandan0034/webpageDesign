@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <link rel="stylesheet" type="text/css" href="Css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="modal/modal.css">
+</head>
+<body>
+    <div class="headers">
+        <header>
+            <div class="col">
+                <img src="whole.png" class="logo">
+            </div>
+            <div class="col inputContainer">
+                <div>
+                    <img src="search-interface-symbol.png" class="SearchIcon">
+                </div>
+                <input placeholder="Search for your favorit groups in ATG" class="inputArea">
+            </div>
+            <div class="col d-flex flex-row align-items-center justify-content-start ms-3">
+                <div id="profile"></div>
+                <span class="Accounts" id="created">Create account.</span>
+                <span class="a-f" style="color: blue;" id="i-f">It's free</span>
+                <img src="baseline-arrow_drop_down-24px.jpg" style="height: 24px; width:24px;">
+            </div>
+    </header>
+</div>
+    <div class="mobileHeader">
+        <img src="Group 3.jpg" style="margin-left:330px; width: 51px;height: 10px;">
+    </div>
+    <div class="BoxContainer">
+       <div class="image-container">
+        <img src="wp8198974 (1).png" class="img-fluid">
+        <div class="joinMBtn" >
+            <button class="JoinGroupMobile" data-bs-target="#signupmodal" data-bs-toggle="modal" style="color: white;">Join Group</button>
+        
+        </div>
+        <div class="d-title">
+            <div class="d-name">Computer Engineering</div>
+            <pre class="d-no-follow">142,765 Computer Engineers follow this</pre>
+         </div>
+       </div>
+    </div>
+    <div class="PostBox">
+        <div class="PostConatiner" id="div">
+            <div class="postHeader">
+                <div class="postHeaderItems" id="postId">
+                    <button class="PostA"> PostAll(322)</button>
+                    <button class="all_postbtn btn">All Post(32)</button>
+                    <button class="articlebtn btn">Article</button>
+                    <button class="eventbtn btn">Event</button>
+                    <button class="educationbtn btn">Education</button>
+                    <button class="jobBtn btn">Job</button>
+                </div>
+                <div class="uploadJoined postHeaderItems">
+                    <div class="filter">
+                        <select>
+                            <option>Filter All:</option>
+                        </select>
+                    </div>
+                   <div class="d-flex flex-row align-items-center justify-content-start postAndJoin" >
+                        <div class="writePost" style=" border-radius: 4px;background: #EDEEF0;;">
+                            <button class="postbtn btn">Write a Post</button>
+                            <img src="baseline-arrow_drop_down-24px.jpg" style="height:22px;width:22px; background: #0000;padding-right:5px">
+                        </div>
+                        <div class="joinedGroup" style=" border-radius: 4px;background: #2305e2;margin-left:5px">
+                            <img src="baseline-group_add-24px.png" style="padding-left:5px;height:22px;width:22px">
+                            <button class="btn" data-bs-target="#signupmodal" data-bs-toggle="modal" style="color: white;" id="joined">Joined</button>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="boxDiv" id="box-c"> 
+            <div class="cardCollection">
+                <div class="card mt-2 mb-2 Cards" style="height: 472px;">
+                    <img src="Rectangle 5.png" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body Card-Body">
+                      <span style="margin-top: 20px;">✍️ Article</span>
+                      <div class="d-flex flex-row justify-content-between align-items-top" style="margin-top: 10px;">
+                        <p class="card-text Card-Text" >What if famous brands had regular fonts? Meet RegulaBrands!</p>
+                        <img src="baseline-more_vert-24px.jpg" style="margin-top:1px;margin-left: 24px; margin-right:20px; width:28px; height:28px;">
+                      </div>
+                      <p class="card-descrip">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                      <div style="margin-top: 32px; margin-bottom:20px;">
+                        <div class="d-flex align-items-center justify-content-start flex-row" style="width: 100%; height: 48px; font-weight: bold;">
+                                <img src="Rectangle 3 (1).png" class="card-image-icon">
+                                <span class="p-name">Sarthak Kamra</span>
+                                <div class="ViewShare">
+                                    <img src="visibility_24px.jpg" class="view-image">
+                                    <span class="view">1.4k views</span>
+                                    <button class="d-flex align-items-center justify-content-center ShareBtn">
+                                    <img src="baseline-share-24px.jpg" alt="" style="width: 18px; height:18px; margin-left: 12px;margin-right: 12px; margin-top: 9px;margin-bottom: 9px; background: #EDEEF0;"></button>
+                                    
+                                </div>
+                                <!-- <img src="baseline-share-24px.jpg" style="width: 18px;height: 18px;color:#2D2D2D;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-2 mb-2 Cards" style="height: 472px;">
+                    <img src="home.png" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body Card-Body">
+                      <span style="margin-top: 20px;">🔬️ Education</span>
+                      <div class="d-flex flex-row justify-content-between align-items-top" style="margin-top: 10px;">
+                        <p class="card-text Card-Text" >Tax Benefits for Investment under National Pension Scheme launched by Government</p>
+                        <img src="baseline-more_vert-24px.jpg" style="margin-top:1px;margin-left: 24px; margin-right:20px; width:28px; height:28px;">
+                      </div>
+                      <p class="card-descrip">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                      <div style="margin-top: 32px; margin-bottom:20px;">
+                        <div class="d-flex align-items-center justify-content-start flex-row" style="width: 100%; height: 48px; font-weight: bold;">
+                                <img src="ladies.png" class="card-image-icon">
+                                <span class="p-name">Sarah West</span>
+                                <div class="ViewShare">
+                                    <img src="visibility_24px.jpg" class="view-image">
+                                    <span class="view">1.4k views</span>
+                                    <button class="d-flex align-items-center justify-content-center ShareBtn">
+                                    <img src="baseline-share-24px.jpg" alt="" style="width: 18px; height:18px; margin-left: 12px;margin-right: 12px; margin-top: 9px;margin-bottom: 9px; background: #EDEEF0;"></button>
+                                    
+                                </div>
+                                <!-- <img src="baseline-share-24px.jpg" style="width: 18px;height: 18px;color:#2D2D2D;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-2 mb-2 Cards" style="height: 472px;">
+                    <img src="Rectangle 5 (1).png" class="card-img-top" alt="..." style="height: 220px;">
+                    <div class="card-body Card-Body">
+                      <span style="margin-top: 20px;">🗓️ Meetup</span>
+                      <div class="d-flex flex-row justify-content-between align-items-top" style="margin-top: 10px;">
+                        <p class="card-text Card-Text" >Finance & Investment Elite Social Mixer @Lujiazui</p>
+                        <img src="baseline-more_vert-24px.jpg" style="margin-top:1px;margin-left: 24px; margin-right:20px; width:28px; height:28px;">
+                      </div>
+                      <div class="d-flex flex-row align-items-center justify-content-space-between mb-5" style="height: 20px;">
+                        <div><img src="calendar.jpg">Fri, 12 Oct, 2018</div>
+                        <div> <img src="location.jpg" alt="">Ahmedabad, India</div>
+                      </div>
+                      <div style="width:100%; border:1px solid black;font-size:20px; font-weight:bold;padding:5px; text-align:center; color:orange">view website</div>
+                      <!-- <p class="card-descrip">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p> -->
+                      <div style="margin-top: 32px; margin-bottom:20px;">
+                        <div class="d-flex align-items-center justify-content-start flex-row" style="width: 100%; height: 48px; font-weight: bold;">
+                                <img src="Rectangle 3.8.jpg" class="card-image-icon">
+                                <span class="p-name">Ronal Jones</span>
+                                <div class="ViewShare">
+                                    <img src="visibility_24px.jpg" class="view-image">
+                                    <span class="view">1.4k views</span>
+                                    <button class="d-flex align-items-center justify-content-center ShareBtn">
+                                    <img src="baseline-share-24px.jpg" alt="" style="width: 18px; height:18px; margin-left: 12px;margin-right: 12px; margin-top: 9px;margin-bottom: 9px; background: #EDEEF0;"></button>
+                                    
+                                </div>
+                                <!-- <img src="baseline-share-24px.jpg" style="width: 18px;height: 18px;color:#2D2D2D;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mt-2 mb-2 Cards" style="height:269px;">
+                    <!-- <img src="Rectangle 5 (1).png" class="card-img-top" alt="..." style="height: 220px;"> -->
+                    <div class="card-body Card-Body">
+                      <span style="margin-top: 20px;">💼️ Job</span>
+                      <div class="d-flex flex-row justify-content-between align-items-top">
+                        <p class="card-text Card-Text" style="margin-bottom: 0xp;">Software Developer</p>
+                        <img src="baseline-more_vert-24px.jpg" style="margin-top:1px;margin-left: 24px; margin-right:20px; width:28px; height:28px;">
+                      </div>
+                      <div class="d-flex flex-row align-items-center justify-content-space-around mb-2" style="height: 20px; margin-top:0px">
+                        <div style="margin-left: 5px;"><img src="calendar.jpg">Innovaccer Analytics Private Ltd.</div>
+                        <div style="margin-left: 5px;"> <img src="location.jpg" alt="">Noida, India</div>
+                      </div>
+                      <div style="margin-bottom:0px; width:100%; border:1px solid black;font-size:20px; font-weight:bold;padding:5px; text-align:center; color:rgb(28, 168, 72)">Apply on Timesjobs</div>
+                      <!-- <p class="card-descrip">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p> -->
+                      <div style="margin-top: 32px; margin-bottom:20px;">
+                        <div class="d-flex align-items-center justify-content-start flex-row" style="width: 100%; height: 48px; font-weight: bold;">
+                                <img src="Rectangle 3.10.jpg" class="card-image-icon">
+                                <span class="p-name">Joseph Gray</span>
+                                <div class="ViewShare">
+                                    <img src="visibility_24px.jpg" class="view-image">
+                                    <span class="view">1.4k views</span>
+                                    <button class="d-flex align-items-center justify-content-center ShareBtn">
+                                    <img src="baseline-share-24px.jpg" alt="" style="width: 18px; height:18px; margin-left: 12px;margin-right: 12px; margin-top: 9px;margin-bottom: 9px; background: #EDEEF0;"></button>
+                                    
+                                </div>
+                                <!-- <img src="baseline-share-24px.jpg" style="width: 18px;height: 18px;color:#2D2D2D;"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <div class="SearchingAndFollowContainer">
+            <div class="searchState">
+                <img src="outline-location_on-24px 2.jpg" style="width: 18px; height:18px;color:#0000">
+                <input value="Noida India" placeholder="Enter Your Location" style="border:none;outline:none;margin-left:4px;margin-bottom:11px;font-size: 14px;
+                font-weight: 600;font-family: IBM Plex Sans;">
+                <img src="baseline-edit-24px.jpg" style="width: 20px; height:20px;margin-bottom:11px">
+            
+            </div>
+            <div class="ErrorDiv" >
+                <img src="baseline-error_outline-24px.jpg">
+                <p style="color: #000;
+                font-family: IBM Plex Sans;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;margin-left:7px">Your location will help us serve better and extend a personalised experience.</p>
+            </div>
+            <div class="recommendedGroup" id="r-c">
+                <div style="display: flex; flex-direction:row; align-items:flex-start;justify-content:center">
+                    <img src="twotone-thumb_up-24px.jpg" style="width:18px;height: 18px; margin-left:0px;margin-top:2px">
+                    <div style="margin-left: 4px; ">RECOMMENDED GROUPS</div>
+                </div>
+                <div class="followMemberCollection">
+                    <div class="followMember">
+                        <img src="Rectangle 6.jpg" class="dp">
+                        <span class="memberName">Leisure</span>
+                        <div style="width: 60px;height: 24px; border-radius:14px;background: #EDEEF0;"><span class="follow">Follow</span>
+                        </div>
+                    </div>
+                    <div class="followMember">
+                        <img src="Rectangle 6.png" class="dp">
+                        <span class="memberName">Activism</span>
+                        <div style="width: 60px;height: 24px; border-radius:14px;background: #EDEEF0;"><span class="follow">Follow</span></div>
+                                                
+                    </div>
+                    <div class="followMember">
+                        <img src="Rectangle 6 (1).png">
+                        <span class="memberName">MBA</span>
+                        <div style="width: 60px;height: 24px; border-radius:14px;background: #EDEEF0;"><span class="follow">Follow</span></div>
+                                                
+                    </div>
+                    <div class="followMember">
+                        <img src="Rectangle 6 (2).png">
+                        <span class="memberName">Philosophy</span>
+                        <div style="width: 60px;height: 24px; border-radius:14px;background: #EDEEF0;"><span class="follow">Follow</span></div>                    
+                    </div> 
+                    <span style="margin-top: 60px; color:blue;">See More...</span>
+                </div>
+            </div>
+          </div>  
+        </div>
+    </div>
+        <!-- <div class="modal" id="signupmodal" style="margin-top: 148px;"><div>&times;</div>
+            <div class="modal-dialog bg-light-subtle">
+                <div class="modal-header">
+                    <div>
+                        <p style="white-space: unwrap;">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </div> -->
+
+    <div class="modal fade" id="signupmodal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content custom-modal-content ModalClass">
+            <div class="modal-header modalTitle">
+                <div class="modalTitle">
+                    <p class="modal-title headerTitle">Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</p>
+                </div>
+                <div class="CloseModal">
+                    <button type="button" id='closeModalBtn' class="btn btn-light Close" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <!-- <h5 class="modal-title" id="signupModalLabel">Signup/Signin Modal</h5> -->
+            </div>
+            <div class="modal-body">
+                <div class="d-flex align-items-start justify-content-end closeModals">
+                    <button type="button" id='closeBtn' class="btn btn-light Close" data-bs-dismiss="modal">&times;</button>
+                </div>
+                <div class="AskingArea">
+                    <h1>Create Account</h1>
+                    <div class="signIn">
+                        <span class="already">Already Account?</span>
+                        <span class="sign">Sign In</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="formContainer">
+                        <div class="form">
+                            <form id="isSignup">
+                                <div class="form-group">
+                                    <div class="nameSection">
+                                        <input type="text" class="form-control" id="firstname" placeholder="First Name">
+                                        <input type="text" class="form-control" id="lastname" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="form-group  EmailSection">
+                                    <input type="email" class="form-control" id="email" placeholder="Email">
+                                </div>
+                                <div class="form-group passwordSection">
+                                    <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                                    <input type="password" class="form-control" id="password" placeholder="Confirm Password">
+                                </div>
+                                <button type="submit" class="btn btn-primary Submit" id="formSubmitBtn">Submit</button>
+                            </form>
+                            <div class="facebook">
+                                <img src="f_logo_RGB-Blue_1024.png" style="width: 16px; height:16px">
+                                <span style="margin-left: 2px;">Signup with Facebook</span>
+                            </div>
+                            <div class="google">
+                                <img src="search.png" style="width: 16px; height:16px">
+                                <span style="margin-left: 2px;">Signup with Google</span>
+                            </div>
+                        </div>
+                        <div class="FormImage">
+                            <div class="insideDiv">
+                                <img src="pngtree-online-registration-or-sign-up-login-for-account-on-smartphone-app-png-image_7930461.png" style="width: 200px; height: 200px;">
+                            </div>
+                            <span style="white-space: wrap; margin-top:200px">By signing up, you agree to our Terms & conditions, Privacy policy</span>
+                    </div>
+                    </div>
+                </div>
+                <!-- Your signup/signin form goes here -->
+            </div>
+        </div>
+    </div>
+     <!--modal classs-->
+        
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    
+    
+</body>
+<script>
+</script>
+<script src="javascript/mediaQuery.js"> </script>
+<script src="javascript/index.js"></script>
+</html>
